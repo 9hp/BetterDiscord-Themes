@@ -333,7 +333,6 @@ html, span:not([class*="spinner-"]):not([class*="spinnerItem"]) { backface-visib
 
 /* ---------- SEARCH RESULTS END ---------- */
 /* ---------- SETTINGS START ---------- */
-#app-mount .layer-3QrUeG[aria-label*="SETTINGS"] { margin: var(--BG-window-padding); }
 
 #app-mount .layer-3QrUeG[aria-label*="SETTINGS"] .standardSidebarView-3F1I7i { background: transparent; overflow: hidden; }
 
