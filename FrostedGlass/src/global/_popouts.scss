@@ -71,9 +71,9 @@
     }
 
     // User popouts
-    .popoutBottomLeft-1pG8B4 .userPopout-3XzG_A {
+    .popoutRight-1veHKi .userPopout-3XzG_A {
         margin-left: 0;
-        animation: fadeIn 0.2s ease forwards !important;
+        animation: fadeInRight 0.2s ease forwards !important;
     }
     .popoutLeft-3aViER .userPopout-3XzG_A {
         animation: fadeInLeft 0.2s ease forwards !important;
@@ -195,7 +195,6 @@
 
 
     // Status
-
     .menu-Sp6bN1 {
         background: transparent;
         box-shadow: none;
@@ -226,18 +225,26 @@
     }
 
     // Server dropdown
-    .popout-2iWAc-.popoutBottom-2GAFPg[style*="overflow: hidden"] {
-        position: fixed;
-        width: 216px !important;
-        left: 104px !important;
-        height: auto !important;
-        animation: fadeInBottom 0.2s ease forwards;
-        .invite-271nFU {
-            color: rgba(var(--BG-gradient-one), 1);
-            font-weight: 600;
+    .layer-v9HyYc[style*="top: 76px;"] .menu-Sp6bN1 {
+        .item-1GzJrl {
+            &:first-of-type {
+                color: var(--nitro);
+            }
+            &.invite-271nFU {
+                color: var(--blurple);
+            }
+            &.leave-1DRJfn {
+                color: var(--red);
+            }
         }
-        .leave-1DRJfn {
-            color: #f04747;
+    }
+
+    // Personal Pins by DevilBro
+    .messagesPopoutWrap-1MQ1bW .container-2XeR5Z {
+        background: rgba(#000, 0.3);
+        input::placeholder {
+            color: rgba(#fff, 0.5);
+            font-weight: 400;
         }
     }
 
@@ -247,6 +254,7 @@
         box-shadow: none;
         margin-left: -430px;
         margin-top: 50px;
+        position: absolute;
         .container-2XeR5Z {
             background: rgba(#000, 0.3);
             input::placeholder {
@@ -368,7 +376,7 @@
         }
         .item-2J1YMK{
             margin: 0;
-            padding: 10px;
+            padding: 5px;
             box-sizing: border-box;
             width: 100%;
             color: #fff;
